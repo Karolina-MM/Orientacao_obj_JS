@@ -27,3 +27,6 @@ const user = {
 //setPrototypeOf significa que estamos definindo que admin vai usar como protótipo, ou seja, como a base ou modelo com as especificações dele, o objeto user.
 
 //Então, o primeiro parâmetro de setPrototypeOf é quem vai pegar as propriedades, e o segundo parâmetro é o objeto que vai fornecer as propriedades
+
+//__proto__ é uma propriedade que todos os objetos têm e que aponta para o protótipo que foi definido para aquele objeto.
+//prototype é uma propriedade da função que é definida como protótipo quando usamos new para criar novos objetos.
